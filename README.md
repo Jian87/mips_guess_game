@@ -2,10 +2,10 @@
 Please download Mars to run the game.
 
 The procedure of this program are:
-  
-Main()	
+	
 
-        loadCard()
+       Main()
+	loadCard()
 	      weclomeDialog()
 	      playGame()
 	      displayResult()
