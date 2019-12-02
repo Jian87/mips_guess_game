@@ -120,13 +120,16 @@ After we done all the 6 rounds, the program will display the number user input c
 
 ## Description of Algorithm
 
-	The algorithm is based on the bit calculation. Each round we will display 32 numbers based on one special position's bit: 0 hide, 1 display.
-	For example:
-	1:  000001
-	2:  000010
-	3:  000011
-	4:  000100
-	First round: we will check the first position(from right to left)'s bit, so display 1 and 3, the second round, we check the second position's bit, so display 2 and 3, the third round, we check the third position's bit, so display 4. Through binary knowledge, we know from 1 to 63(inclusive), 6 bits length, each time we choose 1 position to check bit, there will always 32 numbers display.
-	So, it is easy to do the calculation! During each round, user can input 'Yes' or 'No', record the user input, Yes means 1, No means 0. At last ouput the record register's decimal number directly.
-	Pay attention, when do the record, need to reverse! For example, the first round will display: 1,3,5,7,.....63, if user input 1, he will click 'Yes', then program will record 1, then the last 5 rounds, the user will click 'No'. If dont reverse, the record register will record a binary number: 10000, which is 32, not 1. 
+The algorithm is based on the bit calculation. Each round we will display 32 numbers based on one special position's bit: 0 hide, 1 display.
 
+For example:
+1:  000001
+2:  000010
+3:  000011
+4:  000100
+
+First round: we will check the first position(from right to left)'s bit, so display 1 and 3, the second round, we check the second position's bit, so display 2 and 3, the third round, we check the third position's bit, so display 4. Through binary knowledge, we know from 1 to 63(inclusive), 6 bits length, each time we choose 1 position to check bit, there will always 32 numbers display.
+
+So, it is easy to do the calculation! During each round, user can input 'Yes' or 'No', record the user input, Yes means 1, No means 0. At last ouput the record register's decimal number directly.
+
+Pay attention, when do the record, need to reverse! For example, the first round will display: 1,3,5,7,.....63, if user input 1, he will click 'Yes', then program will record 1, then the last 5 rounds, the user will click 'No'. If dont reverse, the record register will record a binary number: 10000, which is 32, not 1. 
