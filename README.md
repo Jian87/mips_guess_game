@@ -1,5 +1,12 @@
-# mips_guess_game
+## mips_guess_game
+
+This repository is a school project for practising MIPS programming and understanding computer architecture. 
+
+## Running Environment
+
 Please download Mars to run the game.
+
+## Program Procedures
 
 The procedure of this program are:
 	
@@ -110,8 +117,9 @@ Before we do the next round, we insert a sound() function to display sound when 
 
 After we done all the 6 rounds, the program will display the number user input correctly, and ask the user if he/she still want to play again.
 
-*
-Description of Algorithm:
+
+## Description of Algorithm
+
 	The algorithm is based on the bit calculation. Each round we will display 32 numbers based on one special position's bit: 0 hide, 1 display.
 	For example:
 	1:  000001
